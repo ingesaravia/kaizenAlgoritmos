@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{233854BA-3917-489A-9FE7-3B920DAD3DDE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>kaizenAlgoritmos</RootNamespace>
+    <AssemblyName>kaizenAlgoritmos</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\claseArreglos.cs" />
+    <Compile Include="Class\Fisica\claseCinematica.cs" />
+    <Compile Include="Class\Fisica\claseDinamica.cs" />
+    <Compile Include="Class\ProgPOO\claseEmpleado.cs" />
+    <Compile Include="Class\ProgPOO\claseJefe.cs" />
+    <Compile Include="Class\ProgPOO\clasePersona.cs" />
+    <Compile Include="Class\GenAleatorio.cs" />
+    <Compile Include="Class\claseListas.cs" />
+    <Compile Include="Class\Matematica\numFraccionario.cs" />
+    <Compile Include="Class\Matematica\numIrracional.cs" />
+    <Compile Include="Class\Matematica\numNatural.cs" />
+    <Compile Include="Class\Matematica\numRacional.cs" />
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\gesArchivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesArchivo.Designer.cs">
+      <DependentUpon>gesArchivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesClipboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesClipboard.Designer.cs">
+      <DependentUpon>gesClipboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesConectividad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesConectividad.Designer.cs">
+      <DependentUpon>gesConectividad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesCSharpControles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesCSharpControles.Designer.cs">
+      <DependentUpon>gesCSharpControles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesCSharpComponents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesCSharpComponents.Designer.cs">
+      <DependentUpon>gesCSharpComponents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesCSharpEventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesCSharpEventos.Designer.cs">
+      <DependentUpon>gesCSharpEventos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesCSharpPrinting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesCSharpPrinting.Designer.cs">
+      <DependentUpon>gesCSharpPrinting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesDirectorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesDirectorio.Designer.cs">
+      <DependentUpon>gesDirectorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesEstructuraDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesEstructuraDatos.Designer.cs">
+      <DependentUpon>gesEstructuraDatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesFirewall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesFirewall.Designer.cs">
+      <DependentUpon>gesFirewall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesGeometria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesGeometria.Designer.cs">
+      <DependentUpon>gesGeometria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesImagenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesImagenes.Designer.cs">
+      <DependentUpon>gesImagenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesKeylogger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesKeylogger.Designer.cs">
+      <DependentUpon>gesKeylogger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesMathExerciser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesMathExerciser.Designer.cs">
+      <DependentUpon>gesMathExerciser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesMegaCalculadora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesMegaCalculadora.Designer.cs">
+      <DependentUpon>gesMegaCalculadora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesNavegador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesNavegador.Designer.cs">
+      <DependentUpon>gesNavegador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesPixeles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesPixeles.Designer.cs">
+      <DependentUpon>gesPixeles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesProgClase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesProgClase.Designer.cs">
+      <DependentUpon>gesProgClase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesReconocimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesReconocimiento.Designer.cs">
+      <DependentUpon>gesReconocimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\gesVelocidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesVelocidad.Designer.cs">
+      <DependentUpon>gesVelocidad.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\gesArchivo.resx">
+      <DependentUpon>gesArchivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesClipboard.resx">
+      <DependentUpon>gesClipboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesConectividad.resx">
+      <DependentUpon>gesConectividad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesCSharpControles.resx">
+      <DependentUpon>gesCSharpControles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesCSharpComponents.resx">
+      <DependentUpon>gesCSharpComponents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesCSharpEventos.resx">
+      <DependentUpon>gesCSharpEventos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesCSharpPrinting.resx">
+      <DependentUpon>gesCSharpPrinting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesDirectorio.resx">
+      <DependentUpon>gesDirectorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesEstructuraDatos.resx">
+      <DependentUpon>gesEstructuraDatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesFirewall.resx">
+      <DependentUpon>gesFirewall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesGeometria.resx">
+      <DependentUpon>gesGeometria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesImagenes.resx">
+      <DependentUpon>gesImagenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesKeylogger.resx">
+      <DependentUpon>gesKeylogger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesMathExerciser.resx">
+      <DependentUpon>gesMathExerciser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesMegaCalculadora.resx">
+      <DependentUpon>gesMegaCalculadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesNavegador.resx">
+      <DependentUpon>gesNavegador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesPixeles.resx">
+      <DependentUpon>gesPixeles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesProgClase.resx">
+      <DependentUpon>gesProgClase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesReconocimiento.resx">
+      <DependentUpon>gesReconocimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesVelocidad.resx">
+      <DependentUpon>gesVelocidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Img\fondo2.jpg" />
+    <Content Include="Img\fondo3.jpg" />
+    <Content Include="Img\fondo4.jpg" />
+    <Content Include="Img\fondo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
