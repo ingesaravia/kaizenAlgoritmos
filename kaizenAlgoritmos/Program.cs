@@ -20,7 +20,7 @@ namespace kaizenAlgoritmos
             //miPrincipal.Width = Screen.PrimaryScreen.Bounds.Width - 100;
             //miPrincipal.Height = Screen.PrimaryScreen.Bounds.Height - 100;
             Application.Run(miPrincipal);
-            //Comentario realizado con Github
+            //Github es genial!
         }
     }
 }
