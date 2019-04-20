@@ -75,6 +75,7 @@
     <Compile Include="Class\Matematica\numIrracional.cs" />
     <Compile Include="Class\Matematica\numNatural.cs" />
     <Compile Include="Class\Matematica\numRacional.cs" />
+    <Compile Include="Class\ProgPOO\Class1.cs" />
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
