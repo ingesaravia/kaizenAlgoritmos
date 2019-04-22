@@ -417,5 +417,29 @@ namespace kaizenAlgoritmos
 
         public enum diasdelaSemana {Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo};
         public enum statusConexion {Offline, Online};
+
+        private void unidadesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            /* pi = 3,14
+    1rad = 57,3 grados = 0,159 rev
+    pi rad = 180 grados = 0,5 rev
+    2 pi rad = 360 grados = 1 rev
+
+    sistema medicion angular sexagesimal
+    1 grado = 1 r / 90 
+    1 min = 1 grado / 60
+    1 seg = 1 min / 60
+
+sistema centesimal
+1G = 1r / 100
+1M = 1G / 100
+1S = 1M / 100
+
+relacion sexag cant rad
+90 = 100G = pi/2 rad
+180 = 200G = pi rad
+360 = 400G = 2 pi rad
+*/
+        }
     }
 }
