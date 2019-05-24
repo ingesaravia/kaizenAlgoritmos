@@ -159,5 +159,7 @@ namespace kaizenAlgoritmos.View
             }
             lector.Close();
         }
+
+ 
     }
 }

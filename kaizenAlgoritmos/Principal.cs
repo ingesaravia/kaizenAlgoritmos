@@ -1,14 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using kaizenAlgoritmos.Class.ProgPOO;
 using kaizenAlgoritmos.View;
 
 namespace kaizenAlgoritmos
@@ -29,7 +21,7 @@ namespace kaizenAlgoritmos
             int num = rand.Next(1, 4);
 
             //string fullpath = Path.Combine(Application.StartupPath, "Img\\fondo"+num.ToString()+".jpg");
-            string fullpath = "E:\\PROYECTOS\\PROY.NET\\kaizenAlgoritmos\\kaizenAlgoritmos\\Img\\fondo" + num.ToString() + ".jpg";
+            string fullpath = "..\\..\\Img\\fondo" + num.ToString() + ".jpg";
             //Bitmap mi = new System.Drawing.Bitmap(fullpath);
             Image miImg = Bitmap.FromFile(fullpath);
             this.BackgroundImage = miImg;
@@ -440,6 +432,11 @@ relacion sexag cant rad
 180 = 200G = pi rad
 360 = 400G = 2 pi rad
 */
+        }
+
+        private void archivoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
