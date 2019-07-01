@@ -29,7 +29,8 @@
         private void InitializeComponent()
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnActualizarReloj = new System.Windows.Forms.Button();
+            this.helpProvider1 = new System.Windows.Forms.HelpProvider();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -43,19 +44,20 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.button1);
+            this.splitContainer1.Panel1.Controls.Add(this.btnActualizarReloj);
             this.splitContainer1.Size = new System.Drawing.Size(466, 353);
             this.splitContainer1.SplitterDistance = 155;
             this.splitContainer1.TabIndex = 0;
             // 
-            // button1
+            // btnActualizarReloj
             // 
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(149, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnActualizarReloj.Location = new System.Drawing.Point(41, 12);
+            this.btnActualizarReloj.Name = "btnActualizarReloj";
+            this.btnActualizarReloj.Size = new System.Drawing.Size(84, 23);
+            this.btnActualizarReloj.TabIndex = 0;
+            this.btnActualizarReloj.Text = "ACTUALIZAR";
+            this.btnActualizarReloj.UseVisualStyleBackColor = true;
+            this.btnActualizarReloj.Click += new System.EventHandler(this.btnActualizarReloj_Click);
             // 
             // gesReloj
             // 
@@ -75,6 +77,7 @@
         #endregion
 
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnActualizarReloj;
+        private System.Windows.Forms.HelpProvider helpProvider1;
     }
 }

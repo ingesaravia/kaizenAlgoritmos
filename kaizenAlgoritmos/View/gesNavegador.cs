@@ -59,6 +59,11 @@ namespace kaizenAlgoritmos.View
             webBrowser1.Navigate(comboBox1.SelectedItem.ToString());
         }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         //AGREGAR 2 EVENTOS PARA CONTROLAR LOS ESTADOS DEL CLIENTE Y DEL SERVIDOR
     }
 }
