@@ -443,5 +443,183 @@ relacion sexag cant rad
         {
 
         }
+
+        private void blenderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            /*
+            1. CREAR PERSONAJE CON MAKEHUMAN
+            2. CREAR HUESOS PARA EL PERSONAJE
+            3. CREAR PESOS PARA EL PERSONAJE
+            4. CREAR ROPA PARA EL PERSONAJE
+            5. ESTABLECER COLORES PARA EL PERSONAJE
+            6. CREAR ESCENA 3D CON EL PERSONAJE Y OTROS
+            */
+        }
+
+        private void tesisToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            /*
+            1. INTRODUCCION
+            1.1 Introduccion
+            1.2. Antecedentes
+            1.2.1 En España
+            1.2.2 En Mexico
+            1.2.3 En Argentina
+            1.3 Organizacion del trabajo
+            2. MARCO TEORICO
+            2.1 Realidad Aumentada
+            2.1.1 Que es 
+            2.2 Diagrama de una aplicacion de RA
+            2.3 Tracking de RA
+            2.3.1 Tipos de tracking
+            2.3.2 Tracking basado en vision
+            2.4 RA en moviles
+            2.4.1 Caracteristicas de HW y SW
+            2.5 SW de RA
+            2.5.1 Libreria de RA  (pag 17)
+            3. CAP 3 
+            3.1 casa de gobierno y el salon de la bandera
+            3.1.1 La inauguracion
+            3.1.2 Cambios posteriores
+            3.2 La Bandera de Libertad Civil
+            3.2.1 Elementos de la Bandera
+            3.3 El Escudo para la escuela
+            3.4 El General Manuel Belgrano
+            3.4.1 La bandera celeste y blanca flamea en Jujuy
+            3.4.2 El Exodo Jujeño
+            4. DEFINICION DEL PROYECTO
+            4.1 Identificacion del problema
+            4.2 Objetivos del Proyecto
+            4.2.1 Objetivo General
+            4.2.2 Objetivos Especificos
+            4.2.3 Metodos y tecnicas propuestas para el logro del objetivo
+            4.3 Alcance
+            4.4 Restricciones
+            4.5 Ambito del Proyecto
+            4.6 Metodologia RUP
+            4.7 Gestion del Proyecto
+            4.7.1 Planificacion
+            4.7.2 Estimacion de Recursos
+            4.7.3 SW utilizado
+            4.7.4 Evaluacion del Proyecto
+            5. JUSTIFICACION
+            5.1 ¿Por qué una aplicacion movil nativa?
+            5.1.1 Aplicaciones Nativas
+            5.1.2 Aplicaciones Web Moviles y Web Nativas Moviles
+            5.1.3 Conclusion
+            5.2 ¿Por qué Android?
+            5.2.1 Sistema operativo basado en Linux (82 paginas)
+            5.2.2 Evolucion Constante
+            5.2.3 Cuota de Mercado
+            5.2.4 Mercado de dispositivos moviles en Argentina
+            5.2.5 Conclusion
+            5.3 ¿Por qué Unity?
+            5.3.1 Caracteristicas destacadas
+            5.3.2 Conclusion
+            5.4 ¿Por qué se utiliza tracking sin marcadores?	
+            5.4.1 Tracking mediante dispositivos fisicos
+            5.4.2 Tracking basado en vision
+            5.4.3 Conclusion
+            5.5 ¿Por qué MAXStarSDK?
+            5.5.1 Maxstardsk
+            5.5.2 Vuforia
+            5.5.3 Conclusion
+            5.6 Herramientas para el modelado y diseño grafico
+            5.6.1 Autodesk 3dSMax
+            5.6.2 Cinema 4d
+            5.6.3 ZBrush
+            5.6.4 makehuman
+            5.6.5 Blender
+            5.6.6 Conclusion
+            6. FASE DE INICIO
+            6.1 Casos de Uso
+            6.2 Especificacion de Requisitos basada en el Ansi/ieee std 830-1998
+            6.2.1 Introduccion
+            6.2.2 Descripcion general
+            6.2.3 Requisitos especificos
+            6.2.4 Especificacion de Requisitos
+            6.3 Prototipo de Interfaz
+            6.3.1 Pantalla Principal de la App
+            6.3.2 Opcion Explorar Ruta de Hechos Historicos
+            6.3.3 Opcion Virtualizar Escena 3D (pag 110)
+            6.3.4 Informacion sobre la aplicacion
+            6.3.5 Instrucciones de uso
+            6.4 Analisis de Viabilidad
+            6.4.1 Valor Presente Neto
+            6.4.2 Tasa Interna de Rendimiento
+            6.4.3 Periodo de recuperacion de la inversion
+            7. FASE DE ELABORACION
+            7.1 Casos de uso detallado
+            7.2 Diagrama de clases
+            7.3 Diagrama de Secuencias
+            7.3.1 Diag de Sec: Explorar Ruta de HH
+            7.3.2 Diag de Sec: Virtualizar Objeto H
+            7.4 Diag de Actividades
+            7.5 Diag de Navegacion
+            7.6 Refinacion del prototipo interfaz(pag 128)
+            7.6.1 Opcion Virtualizar Escena 3D
+            7.7 Plan de Pruebas
+            7.7.1 Pruebas Unitarias
+            7.7.2 Pruebas de Integracion
+            7.7.3 Prueba de Funcionalidad y Desempeño
+            7.7.4 Prueba de Aceptacion
+            8. FASE DE CONSTRUCCION
+            8.1 Primera Iteracion
+            8.1.1 Generacion de Diseños
+            8.1.2 Generacion de la App
+            8.1.3 Generacion del codigo del prototipo
+            8.2 Segunda Iteracion
+            8.2.1 Planificacion y Diseño de las pruebas
+            8.2.2 Realizacion de las Pruebas Unitarias (pag 153)
+            8.2.3 Realizacion de Pruebas de Integracion
+            9. FASE DE TRANSICION
+            9.1 Prueba de Funcionalidad y desempeño
+            9.1.1 Caracteristicas fisicas del entorno
+            9.1.2 Elaboracion de la planilla para recoleccion de datos de prueba
+            9.1.3 Dispositivos empleados en las pruebas
+            9.1.4 Marcador utilizado
+            9.2 Realizacion de pruebas de funcionalidad
+            9.2.1 Poblacion usada
+            9.3 Conclusiones de Pruebas de la Fase de Construccion
+            9.3.1 Con respecto a...
+            9.3.2 Con respecto a la distancia soportada
+            9.3.3 Con respecto a la escena 3D
+            9.4 Prueba de Aceptacion
+            9.4.1 Elaboracion del cuestionario de la prueba de aceptacion
+            9.4.2 Realizacion de la prueba de aceptacion
+            9.5 Conclusiones de la Prueba de Aceptacion (pag 178)
+            CONCLUSIONES
+            TRABAJOS A FUTURO
+            ANEXO A: TECNICAS DE RECOPILACION DE INFORMACION
+            *OBSERVACIONES 
+            *REVISION DE REGISTROS
+            *ESTADISTICAS DE TURISMO DE JUJUY
+            ANEXO B: ACTIVIDADES Y CRONOGRAMA DEL PROYECTO
+            * CRONOGRAMA
+            ANEXO C: DOCUMENTACION LEGISLATIVA
+            1 Antecedentes Ley N° 5772 (pag 213)
+            2 Inserciones
+            3 Votacion
+            4 Camara de Senadores de la Nacion -ley N!
+            4.1 Sesion ordinaria 13/10/2013 Version taquigrafica
+            4.2 Orden del dia proyecto de ley
+            4.3 Boletin oficial
+            5 Declaracion de interes legislativo
+            6 Perdida de Reconocimiento por el Escudo de la Escuela Legada
+            ANEXO D:
+            1. Modelo de encuesta dispositivos moviles
+            2. Informacion recopilada
+            3. Graficos
+            ANEXO E:
+            1. Modelo de Planilla de Prueba Funcionalidad y Desempeñ
+            2. Pruebas de Funcionalidad y Desempeño
+            3. Modelo Cuestionario Pruebas de Aceptacion
+            4. Prueba de Aceptacion
+            BIBLIOGRAFIA, REFERENCIAS, GLOSARIO Y ABREVIATURAS
+            1. Referencias a sitios web
+            2. Glosario
+            3. Abreviaturas
+            */
+        }
     }
 }

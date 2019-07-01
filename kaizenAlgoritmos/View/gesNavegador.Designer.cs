@@ -63,7 +63,7 @@
             this.tableLayoutPanel1.Controls.Add(this.webBrowser1, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.groupBox2, 0, 2);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(9, 10);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
@@ -82,9 +82,9 @@
             this.groupBox1.Controls.Add(this.btnNavegarURL);
             this.groupBox1.Controls.Add(this.txtURL);
             this.groupBox1.Location = new System.Drawing.Point(2, 2);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(564, 59);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -205,7 +205,7 @@
             "https://rarbg.to/torrents.php?search=nutaku",
             "https://www.linguee.es/"});
             this.comboBox1.Location = new System.Drawing.Point(76, 35);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(329, 21);
             this.comboBox1.TabIndex = 4;
@@ -225,7 +225,7 @@
             // btnExaminarFile
             // 
             this.btnExaminarFile.Location = new System.Drawing.Point(485, 12);
-            this.btnExaminarFile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnExaminarFile.Margin = new System.Windows.Forms.Padding(2);
             this.btnExaminarFile.Name = "btnExaminarFile";
             this.btnExaminarFile.Size = new System.Drawing.Size(74, 19);
             this.btnExaminarFile.TabIndex = 2;
@@ -236,7 +236,7 @@
             // btnNavegarURL
             // 
             this.btnNavegarURL.Location = new System.Drawing.Point(408, 12);
-            this.btnNavegarURL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNavegarURL.Margin = new System.Windows.Forms.Padding(2);
             this.btnNavegarURL.Name = "btnNavegarURL";
             this.btnNavegarURL.Size = new System.Drawing.Size(73, 19);
             this.btnNavegarURL.TabIndex = 1;
@@ -247,7 +247,7 @@
             // txtURL
             // 
             this.txtURL.Location = new System.Drawing.Point(76, 12);
-            this.txtURL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtURL.Margin = new System.Windows.Forms.Padding(2);
             this.txtURL.Name = "txtURL";
             this.txtURL.Size = new System.Drawing.Size(329, 20);
             this.txtURL.TabIndex = 0;
@@ -256,7 +256,7 @@
             // 
             this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.webBrowser1.Location = new System.Drawing.Point(2, 66);
-            this.webBrowser1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.webBrowser1.Margin = new System.Windows.Forms.Padding(2);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(15, 16);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(564, 297);
@@ -266,9 +266,9 @@
             // 
             this.groupBox2.Controls.Add(this.tableLayoutPanel2);
             this.groupBox2.Location = new System.Drawing.Point(2, 367);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(560, 61);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
@@ -291,7 +291,7 @@
             this.tableLayoutPanel2.Controls.Add(this.label4, 0, 1);
             this.tableLayoutPanel2.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(4, 17);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -315,7 +315,7 @@
             // 
             this.txtOperCliente.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtOperCliente.Location = new System.Drawing.Point(56, 2);
-            this.txtOperCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtOperCliente.Margin = new System.Windows.Forms.Padding(2);
             this.txtOperCliente.Name = "txtOperCliente";
             this.txtOperCliente.Size = new System.Drawing.Size(324, 20);
             this.txtOperCliente.TabIndex = 2;
@@ -324,7 +324,7 @@
             // 
             this.txtOperServidor.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtOperServidor.Location = new System.Drawing.Point(56, 21);
-            this.txtOperServidor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtOperServidor.Margin = new System.Windows.Forms.Padding(2);
             this.txtOperServidor.Name = "txtOperServidor";
             this.txtOperServidor.Size = new System.Drawing.Size(324, 20);
             this.txtOperServidor.TabIndex = 3;
@@ -333,7 +333,7 @@
             // 
             this.txtEstadoCliente.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtEstadoCliente.Location = new System.Drawing.Point(384, 2);
-            this.txtEstadoCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEstadoCliente.Margin = new System.Windows.Forms.Padding(2);
             this.txtEstadoCliente.Name = "txtEstadoCliente";
             this.txtEstadoCliente.Size = new System.Drawing.Size(105, 20);
             this.txtEstadoCliente.TabIndex = 4;
@@ -342,7 +342,7 @@
             // 
             this.txtDatosCliente.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtDatosCliente.Location = new System.Drawing.Point(493, 2);
-            this.txtDatosCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDatosCliente.Margin = new System.Windows.Forms.Padding(2);
             this.txtDatosCliente.Name = "txtDatosCliente";
             this.txtDatosCliente.Size = new System.Drawing.Size(52, 20);
             this.txtDatosCliente.TabIndex = 5;
@@ -351,7 +351,7 @@
             // 
             this.txtEstadoServidor.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtEstadoServidor.Location = new System.Drawing.Point(384, 21);
-            this.txtEstadoServidor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEstadoServidor.Margin = new System.Windows.Forms.Padding(2);
             this.txtEstadoServidor.Name = "txtEstadoServidor";
             this.txtEstadoServidor.Size = new System.Drawing.Size(105, 20);
             this.txtEstadoServidor.TabIndex = 6;
@@ -360,7 +360,7 @@
             // 
             this.txtDatosServidor.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtDatosServidor.Location = new System.Drawing.Point(493, 21);
-            this.txtDatosServidor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDatosServidor.Margin = new System.Windows.Forms.Padding(2);
             this.txtDatosServidor.Name = "txtDatosServidor";
             this.txtDatosServidor.Size = new System.Drawing.Size(52, 20);
             this.txtDatosServidor.TabIndex = 7;
@@ -383,7 +383,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(586, 451);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "gesNavegador";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "gesNavegador";
