@@ -438,5 +438,10 @@ relacion sexag cant rad
         {
 
         }
+
+        private void relojToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

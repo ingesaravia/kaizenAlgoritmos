@@ -203,6 +203,12 @@
     <Compile Include="View\gesReconocimiento.Designer.cs">
       <DependentUpon>gesReconocimiento.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\gesReloj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesReloj.Designer.cs">
+      <DependentUpon>gesReloj.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\gesVelocidad.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -280,6 +286,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\gesReconocimiento.resx">
       <DependentUpon>gesReconocimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesReloj.resx">
+      <DependentUpon>gesReloj.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\gesVelocidad.resx">
       <DependentUpon>gesVelocidad.cs</DependentUpon>
