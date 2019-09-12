@@ -21,6 +21,7 @@ namespace kaizenAlgoritmos.View
         private void btnExcel_Click(object sender, EventArgs e)
         {
             claseExcel miExcel = new claseExcel();
+            miExcel.generarListado("D:\\listado.xlsx");
 
 
 

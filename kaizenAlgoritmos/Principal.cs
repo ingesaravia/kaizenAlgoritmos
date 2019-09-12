@@ -621,5 +621,11 @@ relacion sexag cant rad
             3. Abreviaturas
             */
         }
+
+        private void excelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            gesOfficeExcel miOfficeExcel = new gesOfficeExcel();
+            miOfficeExcel.Visible = true;
+        }
     }
 }
