@@ -66,6 +66,7 @@
     <Compile Include="Class\claseArreglos.cs" />
     <Compile Include="Class\Fisica\claseCinematica.cs" />
     <Compile Include="Class\Fisica\claseDinamica.cs" />
+    <Compile Include="Class\Office\claseExcel.cs" />
     <Compile Include="Class\ProgPOO\claseEmpleado.cs" />
     <Compile Include="Class\ProgPOO\claseJefe.cs" />
     <Compile Include="Class\ProgPOO\clasePersona.cs" />
@@ -185,6 +186,12 @@
     <Compile Include="View\gesNavegador.Designer.cs">
       <DependentUpon>gesNavegador.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\gesOfficeExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\gesOfficeExcel.Designer.cs">
+      <DependentUpon>gesOfficeExcel.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\gesPixeles.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -277,6 +284,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\gesNavegador.resx">
       <DependentUpon>gesNavegador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\gesOfficeExcel.resx">
+      <DependentUpon>gesOfficeExcel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\gesPixeles.resx">
       <DependentUpon>gesPixeles.cs</DependentUpon>
