@@ -26,40 +26,68 @@ namespace kaizenAlgoritmos.Class.Office
             Application miExcel = new Application();
             miExcel.Visible = false;
             Workbook workbook = miExcel.Workbooks.Open(dirArchivo);
-            Worksheet worksheet_PM = miExcel.Worksheets.Item[2];
-            Worksheet worksheet_OC = miExcel.Worksheets.Item[3];
-            Worksheet worksheet_REC = miExcel.Worksheets.Item[4];
-            Worksheet worksheet_TRACKPM = miExcel.Worksheets.Item[5];
-            Worksheet worksheet_TRACKOC = miExcel.Worksheets.Item[6];
-            Worksheet worksheet_TRACKREC = miExcel.Worksheets.Item[7];
+            Worksheet worksheet = workbook.Sheets[1];
+            Worksheet worksheet_PM = workbook.Sheets[2];
+            Worksheet worksheet_OC = workbook.Sheets[3];
+            Worksheet worksheet_REC = workbook.Sheets[4];
+            Worksheet worksheet_TRACKPM = workbook.Sheets[5];
+            Worksheet worksheet_TRACKOC = workbook.Sheets[6];
+            Worksheet worksheet_TRACKREC = workbook.Sheets[7];
 
             int pm, oc, rec, totalPM, totalOC, totalREC, fila;
             string nroPM, nroOC, nroREC, origenPM, origenOC, origenREC, tipoTRACK;
 
-            totalPM = 100;
-            totalOC = 100;
-            totalREC = 100;
+            totalPM = worksheet_PM.Rows.Count;
+            totalOC = worksheet_OC.Rows.Count;
+            totalREC = worksheet_REC.Rows.Count;
 
             fila = 1;
+            worksheet.Cells[fila, 1] = "NRO_PM";
+            worksheet.Cells[fila, 2] = "NRO_OC";
+            worksheet.Cells[fila, 3] = "NRO_REC";
+            fila = 2;
 
-            for (pm = 0; pm < totalPM; pm++)
+            for (pm = 2; pm < totalPM; pm++)
             {
-                nroPM = worksheet_PM.Cells[pm, 2];
+                nroPM = worksheet_PM.Cells[pm, 2].Value2;
+                worksheet.Cells[fila, 1] = nroPM;
 
-
-                for (oc = 1; oc < totalOC; oc++)
+                for (oc = 2; oc < totalOC; oc++)
                 {
-                    nroOC = worksheet_TRACKOC.Cells[oc, 2];
+                    nroOC = worksheet_TRACKOC.Cells[oc, 2].Value2;
+                    tipoTRACK = worksheet_TRACKOC.Cells[oc, 3].Value2;
+                    origenPM = worksheet_TRACKOC.Cells[oc, 8].Value2;
 
-                    for (rec = 1; rec < totalREC; rec++)
+                    if (nroPM == origenPM)
                     {
+                        worksheet_TRACKOC.Cells[fila, 2] = nroOC;
 
-                        nroREC = worksheet_TRACKREC.Cells[rec, 2];
+                        for (rec = 2; rec < totalREC; rec++)
+                        {
+                            nroREC = worksheet_TRACKREC.Cells[rec, 2].Value2;
+                            tipoTRACK = worksheet_TRACKREC.Cells[rec, 3].Value2;
+                            origenREC = worksheet_TRACKREC.Cells[rec, 8].Value2;
 
-                        rec++;
+                            if (nroREC == origenREC)
+                            {
+                                worksheet.Cells[fila, 3] = nroREC;
+                                fila++;
+                            }
+                            else
+                                worksheet.Cells[fila, 3] = "PENDIENTE";
+
+                            rec++;
+
+                        }
                     }
+                    else
+                        worksheet.Cells[fila, 2] = "PENDIENTE";
+
+
                     oc++;
                 }
+                fila++;
+                
 
                 pm++;
             }
