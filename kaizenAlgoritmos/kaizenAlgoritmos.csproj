@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\claseArreglos.cs" />
+    <Compile Include="Class\claseRegistro.cs" />
     <Compile Include="Class\Fisica\claseCinematica.cs" />
     <Compile Include="Class\Fisica\claseDinamica.cs" />
     <Compile Include="Class\Office\claseExcel.cs" />

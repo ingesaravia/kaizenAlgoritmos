@@ -13,7 +13,8 @@ namespace kaizenAlgoritmos.Class
         private int[] arregloEntero;
         private char[] arregloCaracter;
 
-        //BIDIMENSIONALES NXN
+        //BIDIMENSIONALES NXM
+        //N filas x M columnas
         private string[,] matrizCadena;
         private int[,] matrizEntero;
         private char[,] matrizCaracter;

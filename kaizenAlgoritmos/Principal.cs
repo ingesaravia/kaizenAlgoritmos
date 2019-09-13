@@ -627,5 +627,23 @@ relacion sexag cant rad
             gesOfficeExcel miOfficeExcel = new gesOfficeExcel();
             miOfficeExcel.Visible = true;
         }
+
+        private void estrucRepetitivaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //CONTROL DE LA VELOCIDAD DE UN BUCLE REPETITIVO
+            int i, j, k;
+
+            for (i=0; i< 2100; i++)
+            {
+                for (j=0; j< 4000; j++)
+                {
+                    for (k=0; k < 2000; k++)
+                    {
+                        System.Console.Out.WriteLine("valores: " + i + j + k);
+                    }
+                }
+            }
+        
+        }
     }
 }
