@@ -5,8 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Office.Interop.Excel;
 
-
-
 namespace kaizenAlgoritmos.Class.Office
 {
     class claseExcel
