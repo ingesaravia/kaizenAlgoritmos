@@ -163,12 +163,6 @@
     <Compile Include="View\gesImagenes.Designer.cs">
       <DependentUpon>gesImagenes.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\gesKeylogger.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\gesKeylogger.Designer.cs">
-      <DependentUpon>gesKeylogger.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\gesMathExerciser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -273,9 +267,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\gesImagenes.resx">
       <DependentUpon>gesImagenes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\gesKeylogger.resx">
-      <DependentUpon>gesKeylogger.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\gesMathExerciser.resx">
       <DependentUpon>gesMathExerciser.cs</DependentUpon>
