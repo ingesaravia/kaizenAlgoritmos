@@ -645,5 +645,20 @@ relacion sexag cant rad
             }
         
         }
+
+        private void aBMStockToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aBMElectricoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void arrayToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
