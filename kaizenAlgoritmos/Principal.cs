@@ -660,5 +660,50 @@ relacion sexag cant rad
         {
 
         }
+
+        private void Principal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void procesosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void versionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void versionNETToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void outlookToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void baseDeDatosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void xMLToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void audioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void webcamToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -48,6 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
@@ -69,9 +72,6 @@
     <Compile Include="Class\Fisica\claseDinamica.cs" />
     <Compile Include="Class\Office\claseExcel.cs" />
     <Compile Include="Class\Office\claseOutlook.cs" />
-    <Compile Include="Class\ProgPOO\claseEmpleado.cs" />
-    <Compile Include="Class\ProgPOO\claseJefe.cs" />
-    <Compile Include="Class\ProgPOO\clasePersona.cs" />
     <Compile Include="Class\GenAleatorio.cs" />
     <Compile Include="Class\claseListas.cs" />
     <Compile Include="Class\Matematica\numFraccionario.cs" />
@@ -109,30 +109,6 @@
     </Compile>
     <Compile Include="View\gesConectividad.Designer.cs">
       <DependentUpon>gesConectividad.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\gesCSharpControles.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\gesCSharpControles.Designer.cs">
-      <DependentUpon>gesCSharpControles.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\gesCSharpComponents.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\gesCSharpComponents.Designer.cs">
-      <DependentUpon>gesCSharpComponents.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\gesCSharpEventos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\gesCSharpEventos.Designer.cs">
-      <DependentUpon>gesCSharpEventos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\gesCSharpPrinting.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\gesCSharpPrinting.Designer.cs">
-      <DependentUpon>gesCSharpPrinting.cs</DependentUpon>
     </Compile>
     <Compile Include="View\gesDirectorio.cs">
       <SubType>Form</SubType>
@@ -242,18 +218,6 @@
     <EmbeddedResource Include="View\gesConectividad.resx">
       <DependentUpon>gesConectividad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\gesCSharpControles.resx">
-      <DependentUpon>gesCSharpControles.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\gesCSharpComponents.resx">
-      <DependentUpon>gesCSharpComponents.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\gesCSharpEventos.resx">
-      <DependentUpon>gesCSharpEventos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\gesCSharpPrinting.resx">
-      <DependentUpon>gesCSharpPrinting.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="View\gesDirectorio.resx">
       <DependentUpon>gesDirectorio.cs</DependentUpon>
     </EmbeddedResource>
@@ -347,15 +311,6 @@
       <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
       <VersionMajor>1</VersionMajor>
       <VersionMinor>8</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>primary</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
-    <COMReference Include="Microsoft.Office.Interop.Outlook">
-      <Guid>{00062FFF-0000-0000-C000-000000000046}</Guid>
-      <VersionMajor>9</VersionMajor>
-      <VersionMinor>6</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>primary</WrapperTool>
       <Isolated>False</Isolated>

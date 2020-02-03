@@ -31,36 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
-            this.cSharpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.controlesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.componentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.impresoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eventosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.baseDeDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.xMLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.archivosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clipboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bATCHToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.relojToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tareasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
-            this.versionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.versionNETToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.outlookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.excelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.multimediaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.imagenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pixelesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.audioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.webcamToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.networkingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.commandToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.firewallToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.navegadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.intelArtificialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.patronesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.matematicaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -76,9 +46,6 @@
             this.velocidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dinamicaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.auxiliarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.blenderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tesisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.indexToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
@@ -122,248 +89,19 @@
             // 
             this.menuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cSharpToolStripMenuItem,
-            this.windowsToolStripMenuItem,
-            this.multimediaToolStripMenuItem,
-            this.networkingToolStripMenuItem,
-            this.intelArtificialToolStripMenuItem,
             this.matematicaToolStripMenuItem,
             this.fisicaToolStripMenuItem,
+            this.intelArtificialToolStripMenuItem,
             this.helpMenu,
             this.windowsMenu,
-            this.fileMenu,
-            this.editMenu});
+            this.editMenu,
+            this.fileMenu});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.MdiWindowListItem = this.windowsMenu;
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(771, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
-            // 
-            // cSharpToolStripMenuItem
-            // 
-            this.cSharpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.controlesToolStripMenuItem,
-            this.componentesToolStripMenuItem,
-            this.impresoraToolStripMenuItem,
-            this.eventosToolStripMenuItem,
-            this.baseDeDatosToolStripMenuItem});
-            this.cSharpToolStripMenuItem.Name = "cSharpToolStripMenuItem";
-            this.cSharpToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.cSharpToolStripMenuItem.Text = "&C Sharp";
-            // 
-            // controlesToolStripMenuItem
-            // 
-            this.controlesToolStripMenuItem.Name = "controlesToolStripMenuItem";
-            this.controlesToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
-            this.controlesToolStripMenuItem.Text = "Controles";
-            this.controlesToolStripMenuItem.Click += new System.EventHandler(this.controlesToolStripMenuItem_Click);
-            // 
-            // componentesToolStripMenuItem
-            // 
-            this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
-            this.componentesToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
-            this.componentesToolStripMenuItem.Text = "Componentes";
-            this.componentesToolStripMenuItem.Click += new System.EventHandler(this.componentesToolStripMenuItem_Click);
-            // 
-            // impresoraToolStripMenuItem
-            // 
-            this.impresoraToolStripMenuItem.Name = "impresoraToolStripMenuItem";
-            this.impresoraToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
-            this.impresoraToolStripMenuItem.Text = "Impresora";
-            this.impresoraToolStripMenuItem.Click += new System.EventHandler(this.impresoraToolStripMenuItem_Click);
-            // 
-            // eventosToolStripMenuItem
-            // 
-            this.eventosToolStripMenuItem.Name = "eventosToolStripMenuItem";
-            this.eventosToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
-            this.eventosToolStripMenuItem.Text = "Eventos";
-            this.eventosToolStripMenuItem.Click += new System.EventHandler(this.eventosToolStripMenuItem_Click);
-            // 
-            // baseDeDatosToolStripMenuItem
-            // 
-            this.baseDeDatosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.archivoToolStripMenuItem,
-            this.xMLToolStripMenuItem});
-            this.baseDeDatosToolStripMenuItem.Name = "baseDeDatosToolStripMenuItem";
-            this.baseDeDatosToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
-            this.baseDeDatosToolStripMenuItem.Text = "Base de Datos";
-            // 
-            // archivoToolStripMenuItem
-            // 
-            this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
-            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
-            this.archivoToolStripMenuItem.Text = "Archivo";
-            this.archivoToolStripMenuItem.Click += new System.EventHandler(this.archivoToolStripMenuItem_Click);
-            // 
-            // xMLToolStripMenuItem
-            // 
-            this.xMLToolStripMenuItem.Name = "xMLToolStripMenuItem";
-            this.xMLToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
-            this.xMLToolStripMenuItem.Text = "XML";
-            // 
-            // windowsToolStripMenuItem
-            // 
-            this.windowsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.archivosToolStripMenuItem,
-            this.clipboardToolStripMenuItem,
-            this.procesosToolStripMenuItem,
-            this.bATCHToolStripMenuItem,
-            this.relojToolStripMenuItem,
-            this.tareasToolStripMenuItem,
-            this.toolStripSeparator12,
-            this.versionToolStripMenuItem,
-            this.versionNETToolStripMenuItem,
-            this.toolStripSeparator1,
-            this.outlookToolStripMenuItem,
-            this.excelToolStripMenuItem});
-            this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
-            this.windowsToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
-            this.windowsToolStripMenuItem.Text = "Windows";
-            // 
-            // archivosToolStripMenuItem
-            // 
-            this.archivosToolStripMenuItem.Name = "archivosToolStripMenuItem";
-            this.archivosToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
-            this.archivosToolStripMenuItem.Text = "Archivos";
-            this.archivosToolStripMenuItem.Click += new System.EventHandler(this.archivosToolStripMenuItem_Click);
-            // 
-            // clipboardToolStripMenuItem
-            // 
-            this.clipboardToolStripMenuItem.Name = "clipboardToolStripMenuItem";
-            this.clipboardToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
-            this.clipboardToolStripMenuItem.Text = "Clipboard";
-            this.clipboardToolStripMenuItem.Click += new System.EventHandler(this.clipboardToolStripMenuItem_Click);
-            // 
-            // procesosToolStripMenuItem
-            // 
-            this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
-            this.procesosToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
-            this.procesosToolStripMenuItem.Text = "Procesos";
-            // 
-            // bATCHToolStripMenuItem
-            // 
-            this.bATCHToolStripMenuItem.Name = "bATCHToolStripMenuItem";
-            this.bATCHToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
-            this.bATCHToolStripMenuItem.Text = "BATCH";
-            this.bATCHToolStripMenuItem.Click += new System.EventHandler(this.bATCHToolStripMenuItem_Click);
-            // 
-            // relojToolStripMenuItem
-            // 
-            this.relojToolStripMenuItem.Name = "relojToolStripMenuItem";
-            this.relojToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
-            this.relojToolStripMenuItem.Text = "Reloj";
-            this.relojToolStripMenuItem.Click += new System.EventHandler(this.relojToolStripMenuItem_Click);
-            // 
-            // tareasToolStripMenuItem
-            // 
-            this.tareasToolStripMenuItem.Name = "tareasToolStripMenuItem";
-            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
-            this.tareasToolStripMenuItem.Text = "Tareas";
-            this.tareasToolStripMenuItem.Click += new System.EventHandler(this.tareasToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator12
-            // 
-            this.toolStripSeparator12.Name = "toolStripSeparator12";
-            this.toolStripSeparator12.Size = new System.Drawing.Size(137, 6);
-            // 
-            // versionToolStripMenuItem
-            // 
-            this.versionToolStripMenuItem.Name = "versionToolStripMenuItem";
-            this.versionToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
-            this.versionToolStripMenuItem.Text = "Version";
-            // 
-            // versionNETToolStripMenuItem
-            // 
-            this.versionNETToolStripMenuItem.Name = "versionNETToolStripMenuItem";
-            this.versionNETToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
-            this.versionNETToolStripMenuItem.Text = "Version .NET";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(137, 6);
-            // 
-            // outlookToolStripMenuItem
-            // 
-            this.outlookToolStripMenuItem.Name = "outlookToolStripMenuItem";
-            this.outlookToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
-            this.outlookToolStripMenuItem.Text = "Outlook";
-            // 
-            // excelToolStripMenuItem
-            // 
-            this.excelToolStripMenuItem.Name = "excelToolStripMenuItem";
-            this.excelToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
-            this.excelToolStripMenuItem.Text = "Excel";
-            this.excelToolStripMenuItem.Click += new System.EventHandler(this.excelToolStripMenuItem_Click);
-            // 
-            // multimediaToolStripMenuItem
-            // 
-            this.multimediaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.imagenesToolStripMenuItem,
-            this.pixelesToolStripMenuItem,
-            this.audioToolStripMenuItem,
-            this.webcamToolStripMenuItem});
-            this.multimediaToolStripMenuItem.Name = "multimediaToolStripMenuItem";
-            this.multimediaToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
-            this.multimediaToolStripMenuItem.Text = "Multimedia";
-            // 
-            // imagenesToolStripMenuItem
-            // 
-            this.imagenesToolStripMenuItem.Name = "imagenesToolStripMenuItem";
-            this.imagenesToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.imagenesToolStripMenuItem.Text = "Imagenes";
-            this.imagenesToolStripMenuItem.Click += new System.EventHandler(this.imagenesToolStripMenuItem_Click);
-            // 
-            // pixelesToolStripMenuItem
-            // 
-            this.pixelesToolStripMenuItem.Name = "pixelesToolStripMenuItem";
-            this.pixelesToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.pixelesToolStripMenuItem.Text = "Pixeles";
-            this.pixelesToolStripMenuItem.Click += new System.EventHandler(this.pixelesToolStripMenuItem_Click);
-            // 
-            // audioToolStripMenuItem
-            // 
-            this.audioToolStripMenuItem.Name = "audioToolStripMenuItem";
-            this.audioToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.audioToolStripMenuItem.Text = "Audio";
-            // 
-            // webcamToolStripMenuItem
-            // 
-            this.webcamToolStripMenuItem.Name = "webcamToolStripMenuItem";
-            this.webcamToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.webcamToolStripMenuItem.Text = "Webcam";
-            // 
-            // networkingToolStripMenuItem
-            // 
-            this.networkingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.commandToolStripMenuItem,
-            this.firewallToolStripMenuItem,
-            this.navegadorToolStripMenuItem});
-            this.networkingToolStripMenuItem.Name = "networkingToolStripMenuItem";
-            this.networkingToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
-            this.networkingToolStripMenuItem.Text = "Networking";
-            // 
-            // commandToolStripMenuItem
-            // 
-            this.commandToolStripMenuItem.Name = "commandToolStripMenuItem";
-            this.commandToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.commandToolStripMenuItem.Text = "Conectividad";
-            this.commandToolStripMenuItem.Click += new System.EventHandler(this.commandToolStripMenuItem_Click);
-            // 
-            // firewallToolStripMenuItem
-            // 
-            this.firewallToolStripMenuItem.Name = "firewallToolStripMenuItem";
-            this.firewallToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.firewallToolStripMenuItem.Text = "Firewall";
-            this.firewallToolStripMenuItem.Click += new System.EventHandler(this.firewallToolStripMenuItem_Click);
-            // 
-            // navegadorToolStripMenuItem
-            // 
-            this.navegadorToolStripMenuItem.Name = "navegadorToolStripMenuItem";
-            this.navegadorToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.navegadorToolStripMenuItem.Text = "Navegador";
-            this.navegadorToolStripMenuItem.Click += new System.EventHandler(this.navegadorToolStripMenuItem_Click);
             // 
             // intelArtificialToolStripMenuItem
             // 
@@ -472,9 +210,6 @@
             // helpMenu
             // 
             this.helpMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.auxiliarToolStripMenuItem,
-            this.blenderToolStripMenuItem,
-            this.tesisToolStripMenuItem,
             this.indexToolStripMenuItem,
             this.searchToolStripMenuItem,
             this.toolStripSeparator8,
@@ -483,33 +218,12 @@
             this.helpMenu.Size = new System.Drawing.Size(44, 20);
             this.helpMenu.Text = "&Help";
             // 
-            // auxiliarToolStripMenuItem
-            // 
-            this.auxiliarToolStripMenuItem.Name = "auxiliarToolStripMenuItem";
-            this.auxiliarToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.auxiliarToolStripMenuItem.Text = "Auxiliar";
-            this.auxiliarToolStripMenuItem.Click += new System.EventHandler(this.auxiliarToolStripMenuItem_Click);
-            // 
-            // blenderToolStripMenuItem
-            // 
-            this.blenderToolStripMenuItem.Name = "blenderToolStripMenuItem";
-            this.blenderToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.blenderToolStripMenuItem.Text = "Blender";
-            this.blenderToolStripMenuItem.Click += new System.EventHandler(this.blenderToolStripMenuItem_Click);
-            // 
-            // tesisToolStripMenuItem
-            // 
-            this.tesisToolStripMenuItem.Name = "tesisToolStripMenuItem";
-            this.tesisToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.tesisToolStripMenuItem.Text = "Tesis";
-            this.tesisToolStripMenuItem.Click += new System.EventHandler(this.tesisToolStripMenuItem_Click);
-            // 
             // indexToolStripMenuItem
             // 
             this.indexToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("indexToolStripMenuItem.Image")));
             this.indexToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.indexToolStripMenuItem.Name = "indexToolStripMenuItem";
-            this.indexToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.indexToolStripMenuItem.Size = new System.Drawing.Size(156, 26);
             this.indexToolStripMenuItem.Text = "&Index";
             // 
             // searchToolStripMenuItem
@@ -798,6 +512,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Principal_Load);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.statusStrip.ResumeLayout(false);
@@ -846,24 +561,8 @@
         private System.Windows.Forms.ToolStripMenuItem indexToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem searchToolStripMenuItem;
         private System.Windows.Forms.ToolTip toolTip;
-        private System.Windows.Forms.ToolStripMenuItem windowsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem clipboardToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem archivosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem multimediaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem imagenesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem networkingToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem commandToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pixelesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem audioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem intelArtificialToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem patronesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cSharpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem controlesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem componentesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem impresoraToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem firewallToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eventosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem navegadorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem matematicaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem algebraToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mCDMCMToolStripMenuItem;
@@ -872,27 +571,10 @@
         private System.Windows.Forms.ToolStripMenuItem estadisticaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fisicaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem velocidadesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem versionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem versionNETToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem webcamToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bATCHToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem auxiliarToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
         private System.Windows.Forms.ToolStripMenuItem mathExerciserToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tareasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
         private System.Windows.Forms.ToolStripMenuItem dinamicaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem outlookToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem unidadesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem baseDeDatosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem xMLToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem relojToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem blenderToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tesisToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem excelToolStripMenuItem;
     }
 }
 
